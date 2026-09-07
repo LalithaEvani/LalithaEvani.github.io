@@ -61,3 +61,9 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - The count line stays hidden until it reaches 1, so a freshly deployed site
   never shows "0 visits" (lower the threshold in `_pages/about.md` to always
   show it).
+
+## 2026-09-07 — Version 1 checklist
+
+- Added `TODO.md` at the repo root: the checklist of placeholders to fill in
+  (bio, photo, publications, CV PDF + data, projects, social links) to take the
+  site from template to a finished v1.
