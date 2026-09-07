@@ -37,3 +37,26 @@ scientist roles) and am interested in <!-- TODO: topics or labs you'd like to wo
 On this site you can find my [publications](/publications/), a selection of
 [projects](/projects/), and my [CV](/cv/). The quickest way to reach me is by
 email — see the links below.
+
+{%- if site.goatcounter_code %}
+<script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+<p style="text-align:center; margin-top:2rem; font-size:0.8rem; opacity:0.7;">
+  <img src="https://{{ site.goatcounter_code }}.goatcounter.com/counter/TOTAL.svg"
+       loading="lazy" alt="Total visits to this site" style="vertical-align:middle;">
+</p>
+{%- endif %}
+
+<!--
+  VISITOR COUNTER
+  The block above shows a live "visitors" count once you set `goatcounter_code`
+  in _config.yml (free, private, no cookies — see the comment there).
+  If you'd rather have a zero-signup counter, delete the block above and the
+  `goatcounter_code` key, and uncomment this one instead (third-party image,
+  approximate counts, service may change):
+  <p style="text-align:center; margin-top:2rem;">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=lalithaevani.github.io"
+         alt="visitor badge">
+  </p>
+-->
+

@@ -127,6 +127,11 @@ analytics:
   cloudflare: # your Cloudflare Web Analytics beacon token (32 hex characters)
 enable_simple_analytics: false # Simple Analytics identifies a site by its domain, so it has no ID to set above
 
+# Public "visitors" counter shown at the bottom of the home page (_pages/about.md).
+# Uses GoatCounter (free, open-source, no cookies): sign up at https://www.goatcounter.com/,
+# pick a code (e.g. "lalithae"), and put just that code here. Leave blank to hide the counter.
+goatcounter_code:
+
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)

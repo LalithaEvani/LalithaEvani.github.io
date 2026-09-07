@@ -6,7 +6,8 @@ and machine learning at IIIT Hyderabad.
 Live at <https://LalithaEvani.github.io>.
 
 Built with the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme
-(MIT licensed — see `LICENSE`).
+(MIT licensed — see `LICENSE`). See [`CHANGES.md`](CHANGES.md) for what this repo
+customizes relative to stock al-folio.
 
 ## How it deploys
 
