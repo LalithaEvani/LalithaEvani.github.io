@@ -130,7 +130,7 @@ enable_simple_analytics: false # Simple Analytics identifies a site by its domai
 # Public "visitors" counter shown at the bottom of the home page (_pages/about.md).
 # Uses GoatCounter (free, open-source, no cookies): sign up at https://www.goatcounter.com/,
 # pick a code (e.g. "lalithae"), and put just that code here. Leave blank to hide the counter.
-goatcounter_code:
+goatcounter_code: lalithae
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)

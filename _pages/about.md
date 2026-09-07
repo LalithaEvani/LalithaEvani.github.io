@@ -43,7 +43,8 @@ email — see the links below.
         async src="//gc.zgo.at/count.js"></script>
 <p style="text-align:center; margin-top:2rem; font-size:0.8rem; opacity:0.7;">
   <img src="https://{{ site.goatcounter_code }}.goatcounter.com/counter/TOTAL.svg"
-       loading="lazy" alt="Total visits to this site" style="vertical-align:middle;">
+       loading="lazy" alt="Total visits to this site" style="vertical-align:middle;"
+       onerror="this.parentNode.style.display='none';">
 </p>
 {%- endif %}
 
