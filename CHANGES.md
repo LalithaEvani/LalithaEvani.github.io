@@ -53,5 +53,8 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 
 - Added an optional GoatCounter visitor count at the bottom of the home page,
   controlled by `goatcounter_code` in `_config.yml` (hidden while blank).
-  A zero-signup image-badge alternative is documented in an HTML comment in
-  `_pages/about.md`.
+- Enabled it with code `lalithae`.
+- Replaced GoatCounter's `TOTAL.svg` badge image with a small plain-text count
+  fetched from the `TOTAL.json` endpoint and styled to match the site
+  typography (muted, centred, eye icon). It renders only after the count
+  loads and hides silently on any error.
