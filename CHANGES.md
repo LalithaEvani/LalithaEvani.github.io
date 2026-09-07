@@ -58,3 +58,6 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   fetched from the `TOTAL.json` endpoint and styled to match the site
   typography (muted, centred, eye icon). It renders only after the count
   loads and hides silently on any error.
+- The count line stays hidden until it reaches 1, so a freshly deployed site
+  never shows "0 visits" (lower the threshold in `_pages/about.md` to always
+  show it).
