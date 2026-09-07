@@ -1,0 +1,20 @@
+# Optional: style the venue tag (abbr={...}) used in _bibliography/papers.bib.
+# Key = the abbr string; give it a color and/or a URL.
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#00369f"
+"ICCV":
+  url: https://iccv.thecvf.com/
+  color: "#00369f"
+"ECCV":
+  url: https://eccv.ecva.net/
+  color: "#00369f"
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#6f42c1"
+"BMVC":
+  url: https://bmvc.org/
+  color: "#009f36"
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"

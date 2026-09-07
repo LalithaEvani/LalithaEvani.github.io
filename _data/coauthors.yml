@@ -1,0 +1,8 @@
+# Optional: map co-author last names (lowercase) to canonical first-name forms and
+# a link, so jekyll-scholar can render their names as links on /publications/.
+# The key must match the last name exactly as it appears in _bibliography/papers.bib.
+#
+# Example:
+# "smith":
+#   - firstname: ["Jane", "J."]
+#     url: https://jane-smith.example.com

@@ -1,0 +1,16 @@
+# Social media links / usernames for the author.
+# Icons are shown at the bottom of the About page (social: true in _pages/about.md).
+# They render in the order defined here. See https://github.com/george-gca/jekyll-socials
+
+cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file (replace assets/pdf/cv.pdf with your real CV)
+email: lalitha.e@research.iiit.ac.in # your email address
+github_username: LalithaEvani # your GitHub username
+
+# TODO: add your Google Scholar profile ID.
+# Open your Scholar profile, copy the value of the `user=` query parameter in the URL,
+# e.g. scholar.google.com/citations?user=XXXXXXXXXXXX  ->  scholar_userid: XXXXXXXXXXXX
+# scholar_userid: XXXXXXXXXXXX
+
+# TODO: add your LinkedIn vanity name, i.e. the part after /in/ in your profile URL,
+# e.g. linkedin.com/in/lalitha-evani  ->  linkedin_username: lalitha-evani
+# linkedin_username: your-linkedin-id

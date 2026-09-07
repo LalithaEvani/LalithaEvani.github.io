@@ -1,0 +1,74 @@
+# This file generates the structured sections on the /cv/ page (cv_format: rendercv).
+# The "Download PDF" button on that page points to assets/pdf/cv.pdf (see _pages/cv.md).
+# TODO: replace every placeholder below with your real details, and delete sections you don't need.
+cv:
+  name: Lalitha Evani
+  label: MS Researcher — Computer Vision & Machine Learning
+  email: lalitha.e@research.iiit.ac.in
+  location: Hyderabad, India
+  image: ""
+  summary: >
+    MS researcher at IIIT Hyderabad working on computer vision and machine learning.
+    TODO: one or two sentences on your focus areas and what roles you are seeking.
+
+  social_networks:
+    - network: GitHub
+      username: LalithaEvani
+    # - network: LinkedIn
+    #   username: your-linkedin-id
+
+  sections:
+    Education:
+      - institution: International Institute of Information Technology, Hyderabad (IIIT-H)
+        location: Hyderabad, India
+        url: https://www.iiit.ac.in/
+        area: Computer Vision / Machine Learning
+        studyType: MS by Research (Computer Science)
+        start_date: 2023 # TODO: fix dates
+        end_date: 2025 # TODO
+        highlights:
+          - "TODO: thesis / advisor / lab."
+          - "TODO: relevant coursework, GPA if strong."
+
+      - institution: "TODO: Undergraduate institution"
+        location: "TODO"
+        area: "TODO: major"
+        studyType: "B.Tech / B.E."
+        start_date: 2018 # TODO
+        end_date: 2022 # TODO
+        highlights:
+          - "TODO: honors, rank, notable projects."
+
+    Experience:
+      - company: "TODO: Organization / Lab"
+        position: "TODO: Research Intern / Assistant"
+        location: "TODO"
+        start_date: 2024 # TODO
+        end_date: 2024 # TODO
+        summary: "TODO: one line on the role."
+        highlights:
+          - "TODO: what you built or found, with impact / numbers."
+
+    Publications:
+      - title: "TODO: Paper title"
+        authors:
+          - Lalitha Evani
+          - "TODO: co-authors"
+        publisher: "TODO: venue (e.g. CVPR / BMVC / arXiv)"
+        releaseDate: 2025 # TODO
+        url: "" # TODO: link to paper
+        summary: "TODO: one-sentence description. Keep the full list in _bibliography/papers.bib."
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, PyTorch, NumPy, C++, Git, Linux"
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "Deep learning, computer vision, model training & evaluation, data pipelines"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+      - name: Telugu
+        summary: "Native speaker"
