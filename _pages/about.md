@@ -57,8 +57,9 @@ email — see the links below.
     fetch("https://{{ site.goatcounter_code }}.goatcounter.com/counter/TOTAL.json")
       .then(function (r) { if (!r.ok) throw 0; return r.json(); })
       .then(function (d) {
-        document.getElementById("site-visits-n").textContent =
-          (parseInt(d.count, 10) || 0).toLocaleString();
+        var n = parseInt(d.count, 10) || 0;
+        if (n < 1) return; // don't show "0 visits" on a fresh site; lower this to 0 to always show
+        document.getElementById("site-visits-n").textContent = n.toLocaleString();
         box.hidden = false;
       })
       .catch(function () {});
