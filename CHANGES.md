@@ -67,3 +67,13 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - Added `TODO.md` at the repo root: the checklist of placeholders to fill in
   (bio, photo, publications, CV PDF + data, projects, social links) to take the
   site from template to a finished v1.
+
+## 2026-09-07 — Profile photo
+
+- Replaced the stock al-folio `assets/img/prof_pic.jpg` with a processed version
+  of `profile_photo.jpeg`: square head-and-shoulders crop, mild white balance /
+  brightness / contrast cleanup, upscaled to 800×800 (LANCZOS + light unsharp —
+  interpolation, not AI super-resolution).
+- The original `profile_photo.jpeg` is kept locally but git-ignored, for future
+  re-crops or the planned formal-wear edit.
+- Still worth improving later: it is a night shot with a busy background.
