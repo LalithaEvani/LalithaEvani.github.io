@@ -1,0 +1,63 @@
+#!/usr/bin/env bash
+#
+# Pull shared / design files from the portfolio-template remote, leaving this
+# site's personal content (bio, publications, CV, projects, photo, identity in
+# _config.yml, README/CHANGES/TODO) untouched. Review the result, then commit.
+#
+# One-time setup in this repo:
+#   git remote add template https://github.com/<owner>/portfolio-template.git
+#
+# Usage:
+#   bin/sync-from-template [remote] [branch]     # defaults: template main
+#
+set -euo pipefail
+
+REMOTE="${1:-template}"
+BRANCH="${2:-main}"
+
+# Files/dirs that are SHARED across every site built from the template.
+# Anything NOT listed here is personal and is never touched by this script.
+SHARED=(
+  .github/workflows
+  .dockerignore Dockerfile docker-compose.yml docker-compose-slim.yml
+  Gemfile Gemfile.lock package.json package-lock.json purgecss.config.js
+  requirements.txt robots.txt LICENSE
+  bin docs
+  _pages/404.md _pages/cv.md _pages/projects.md _pages/publications.md
+  _data/coauthors.yml _data/venues.yml _data/citations.yml
+  assets/json
+)
+
+cd "$(git rev-parse --show-toplevel)"
+
+if [ -n "$(git status --porcelain)" ]; then
+  echo "Working tree is not clean — commit or stash first." >&2
+  exit 1
+fi
+
+echo "Fetching ${REMOTE}/${BRANCH} ..."
+git fetch "$REMOTE" "$BRANCH"
+
+echo "Updating shared files from ${REMOTE}/${BRANCH} ..."
+# checkout only rewrites the listed paths that exist upstream; local-only files
+# (e.g. this script, if the template lacks it) are left alone.
+git checkout "${REMOTE}/${BRANCH}" -- "${SHARED[@]}"
+
+echo
+# _config.yml is deliberately NOT auto-synced: it mixes shared settings
+# (plugins, feature flags, jekyll-scholar) with your name / URL / keywords.
+if ! git diff --quiet "HEAD:_config.yml" "${REMOTE}/${BRANCH}:_config.yml" 2>/dev/null; then
+  echo "NOTE: _config.yml differs from the template. Apply the shared parts by hand:"
+  echo "      git diff HEAD:_config.yml ${REMOTE}/${BRANCH}:_config.yml"
+  echo
+fi
+
+if git diff --quiet --cached; then
+  echo "No shared-file changes to pull — already up to date."
+  exit 0
+fi
+
+echo "Staged changes from the template:"
+git --no-pager diff --cached --stat
+echo
+echo "Review, then:  git commit -m \"Sync shared files from portfolio-template\" && git push"
