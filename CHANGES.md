@@ -77,3 +77,14 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - The original `profile_photo.jpeg` is kept locally but git-ignored, for future
   re-crops or the planned formal-wear edit.
 - Still worth improving later: it is a night shot with a busy background.
+
+## 2026-09-10 — Link to portfolio-template
+
+- Created a sibling `portfolio-template` repo (generic placeholders) so new
+  sites can be started from it and design changes can be shared.
+- Added `bin/sync-from-template` and `docs/TEMPLATE-SYNC.md`: run the script to
+  pull only the shared/design files from the `template` remote; personal
+  content (bio, publications, CV, projects, photo, name/URL in `_config.yml`,
+  README/CHANGES/TODO) is never touched. `_config.yml` is reviewed by hand.
+- A plain `git merge template/main` is *not* used — the two repos have separate
+  histories and a merge would overwrite personal files.
