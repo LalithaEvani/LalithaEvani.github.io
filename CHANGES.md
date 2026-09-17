@@ -88,3 +88,10 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   README/CHANGES/TODO) is never touched. `_config.yml` is reviewed by hand.
 - A plain `git merge template/main` is *not* used — the two repos have separate
   histories and a merge would overwrite personal files.
+
+## 2026-09-17 — Remove profile photo
+
+- Deleted `assets/img/prof_pic.jpg` (the site copy) and `profile_photo.jpeg`
+  (the local-only original). Commented out `profile.image` in `_pages/about.md`
+  so the About page renders without a photo. Add a new `assets/img/prof_pic.jpg`
+  and uncomment that line to show a photo again.

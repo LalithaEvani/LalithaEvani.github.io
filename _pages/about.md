@@ -6,8 +6,7 @@ subtitle: MS Researcher in Computer Vision & Machine Learning · <a href='https:
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  # image: prof_pic.jpg # no photo for now — uncomment and add assets/img/prof_pic.jpg to show one again
   more_info: >
     <p>IIIT Hyderabad</p>
     <p>Gachibowli, Hyderabad 500032</p>
