@@ -6,9 +6,8 @@ jump to each spot. Roughly most-visible-first.
 
 ## A. Blocking — the site currently shows placeholder or broken text
 
-- [ ] **1. Write the bio** — 2–3 short paragraphs (what you work on, background,
-      roles you're seeking). Right now the live page reads *"Before my MS, I ."*
-      and *"interested in ."* because the TODO comments are empty.
+- [x] **1. Write the bio** — done: CVIT, advisors, OCR/Indic HTR focus,
+      research interests, industry/AI4SG goal, personal note.
       → `_pages/about.md` (lines ~26–39)
 - [ ] **2. Replace the profile photo** — currently a **temporary illustrated
       placeholder** (`assets/img/prof_pic.png`), not a real photo. Swap for an
