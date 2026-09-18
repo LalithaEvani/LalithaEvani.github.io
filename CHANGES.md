@@ -187,3 +187,21 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   automatically), and a real thumbnail (`assets/img/indic-htr-teaser.png`,
   the India-by-script map from the paper). Links to the project page, paper,
   and code.
+
+## 2026-09-18 -- Project pages for the other two papers
+
+- New standalone project pages (same seemandhar/paper-template pipeline as
+  the Indic HTR page): SemiHastakshar (ICVGIP 2025, paper self-hosted --
+  CC BY 4.0 -- plus links to ACM DL and the existing SemiHastakshar code
+  repo) and Text Summarization of Medical Documents (ICAAIC 2023, no code
+  repo exists so only a paper link, out to IEEE Xplore -- copyright not
+  confirmed open). Both built from the actual PDFs: real abstracts, real
+  figures, real results tables, no invented numbers.
+- `_bibliography/papers.bib` / `_data/cv.yml`: added `website`/`code`
+  fields for both new entries; fixed the Text Summarization author order to
+  match the paper's own byline (Evani, Deepak, Ramani, Bindu, Shahida,
+  Shaikshavali) -- the earlier order, taken from Google Scholar's
+  abbreviated author list, was wrong.
+- `_projects/2_project.md` and `_projects/3_project.md`: same pattern as
+  `1_project.md` -- real content, real thumbnail, `{% cite %}` pulling in
+  the matching bib entry's buttons. All 3 project cards are now real.
