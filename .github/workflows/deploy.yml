@@ -101,6 +101,13 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Disable GitHub Pages' own Jekyll build 🚫
+        # Without this, GitHub Pages re-runs Jekyll on the already-built _site
+        # output using its restricted default plugin set (no jekyll-scholar,
+        # etc.), which fails and leaves the live site stuck on the last build
+        # that didn't have this file. gh-pages is plain static HTML; Pages
+        # only needs to serve it, not build it again.
+        run: touch _site/.nojekyll
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4

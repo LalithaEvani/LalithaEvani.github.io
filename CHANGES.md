@@ -219,3 +219,16 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   repo (index.html hero + BibTeX, README.md).
 - Checked SemiHastakshar and Indic HTR author blocks too: both are single-row
   layouts with no column-major ambiguity, so those were already correct.
+
+## 2026-09-18 -- Fix: site frozen since 11:00 GMT, real root cause
+
+- Not a CDN caching issue after all. GitHub Pages' own secondary Jekyll
+  build (the "pages build and deployment" step, separate from our custom
+  "Deploy site" Action) has been failing on every push since commit
+  e0636f61 -- because `gh-pages` had no `.nojekyll` file, so GitHub Pages
+  tried to run Jekyll again on our already-built static output, using its
+  restricted default plugin set (no jekyll-scholar etc.), and errored.
+  The live site was stuck serving the last build that succeeded before that.
+- Fixed in `.github/workflows/deploy.yml`: `touch _site/.nojekyll` before
+  the Deploy step, so gh-pages always carries it and Pages just serves the
+  static files without re-running Jekyll.
