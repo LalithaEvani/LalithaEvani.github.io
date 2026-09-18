@@ -6,7 +6,7 @@ subtitle: MS Researcher in Computer Vision & Machine Learning · <a href='https:
 
 profile:
   align: right
-  # image: prof_pic.jpg # no photo for now — uncomment and add assets/img/prof_pic.jpg to show one again
+  image: prof_pic.png # TODO: temporary illustrated placeholder — swap for a real photo (see assets/img/prof_pic.png)
   more_info: >
     <p>IIIT Hyderabad</p>
     <p>Gachibowli, Hyderabad 500032</p>

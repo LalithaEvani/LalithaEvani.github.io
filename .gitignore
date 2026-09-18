@@ -20,5 +20,6 @@ vendor
 __pycache__/
 *.pyc
 
-# local-only: original of the profile photo, kept for future re-crops/edits
+# local-only: original photo(s), kept for future re-crops/edits
 /profile_photo.jpeg
+/profile_photo_temporary.png

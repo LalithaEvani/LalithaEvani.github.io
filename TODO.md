@@ -10,9 +10,10 @@ jump to each spot. Roughly most-visible-first.
       roles you're seeking). Right now the live page reads *"Before my MS, I ."*
       and *"interested in ."* because the TODO comments are empty.
       → `_pages/about.md` (lines ~26–39)
-- [x] **2. Replace the profile photo** — done: real photo, square-cropped,
-      balanced, 800×800. Optional later: cleaner background / daytime retake /
-      formal-wear edit; original kept at `profile_photo.jpeg` (git-ignored).
+- [ ] **2. Replace the profile photo** — currently a **temporary illustrated
+      placeholder** (`assets/img/prof_pic.png`), not a real photo. Swap for an
+      actual headshot before this site goes in front of anyone (labs,
+      committees) — not standard for a research portfolio. See the chat for why.
       → `assets/img/prof_pic.jpg`
 - [ ] **3. Real publications** — swap the 2 fake BibTeX entries for real papers
       (Google Scholar → "Cite" → BibTeX). Add `selected={true}` to the 1–3 to
