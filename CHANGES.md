@@ -95,3 +95,9 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   (the local-only original). Commented out `profile.image` in `_pages/about.md`
   so the About page renders without a photo. Add a new `assets/img/prof_pic.jpg`
   and uncomment that line to show a photo again.
+
+## 2026-09-18 — Unpin the footer
+
+- `footer_fixed: false` in `_config.yml` — the copyright bar was pinned to the
+  bottom of the viewport while scrolling; now it sits at the end of the page
+  like a normal footer.
