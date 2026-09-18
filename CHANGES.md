@@ -232,3 +232,12 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - Fixed in `.github/workflows/deploy.yml`: `touch _site/.nojekyll` before
   the Deploy step, so gh-pages always carries it and Pages just serves the
   static files without re-running Jekyll.
+
+## 2026-09-18 -- Project card thumbnails link straight to project pages
+
+- Added `redirect:` front matter to all 3 `_projects/*.md` files (al-folio's
+  built-in support for this: `_includes/projects.liquid` links to
+  `project.redirect` when set, instead of the internal detail page). Clicking
+  a thumbnail on `/projects/` now opens the external project page directly.
+  The internal detail pages (`/projects/1_project/` etc.) still exist and
+  work if visited directly, just no longer linked from the listing.
