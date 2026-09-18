@@ -140,3 +140,8 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   documents used only locally to fill in CV data. The resume has a phone
   number and the transcript has a date of birth and roll number; neither
   file is committed or published.
+
+## 2026-09-18 -- Trim About page copy
+
+- Removed the "On this site you can find my publications..." navigation-pointer
+  paragraph from `_pages/about.md` (redundant with the navbar links).
