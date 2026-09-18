@@ -41,10 +41,6 @@ Outside the lab, you'll find me with a cup of chai, a book, or a paintbrush.
 I'm always open to making new friends, understanding different perspectives,
 and slowly working out the philosophy of life.
 
-On this site you can find my [publications](/publications/), a selection of
-[projects](/projects/), and my [CV](/cv/). The quickest way to reach me is by
-email — see the links below.
-
 {%- if site.goatcounter_code %}
 <!-- VISITOR COUNTER (GoatCounter). The first script records visits; the block
      below shows the running total as plain text styled to match the site.
