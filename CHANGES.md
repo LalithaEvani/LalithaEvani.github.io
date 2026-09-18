@@ -247,3 +247,9 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - TODO.md: added item 12 (resize + reconsider the 3 project card
   thumbnails) and reworded item 11 (favicon) to note exploring other
   options, not just picking a fixed replacement.
+
+## 2026-09-18 -- Add TODO item: sign language avatar
+
+- TODO.md: added item 13, a sign language avatar on the homepage
+  (accessibility) -- flagged as needing its own approach discussion before
+  implementation, unlike the smaller items around it.

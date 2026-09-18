@@ -58,6 +58,12 @@ jump to each spot. Roughly most-visible-first.
       reconsider whether the current images are the right ones to use as
       thumbnails at all.
       → `assets/img/{indic-htr-teaser,semihastakshar-teaser,textsumm-rouge-chart}.png`
+- [ ] **13. Sign language avatar on the homepage** — accessibility feature;
+      bigger/newer than the other items here, needs its own discussion on
+      approach (e.g. a pre-rendered video/animation vs. a third-party
+      avatar/signing service, which language — ISL presumably given the
+      site's context, and where on the page it sits) before implementing.
+      → `_pages/about.md`
 
 ## C. Optional housekeeping
 
