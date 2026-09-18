@@ -161,3 +161,13 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - IDASCN 2022 ("Chronic Disease Prediction...") intentionally left out --
   the resume did not list its authors or a DOI/link; not guessing at
   co-authors. Flagged as a TODO in both files.
+
+## 2026-09-18 -- All 3 publications from Google Scholar
+
+- `_bibliography/papers.bib` and `_data/cv.yml` Publications: replaced with
+  the 3 papers on the user's Google Scholar profile
+  (scholar.google.com/citations?user=6wlLRUcAAAAJ), full details incl. DOIs:
+  SemiHastakshar (ICVGIP 2025), Enhancing Accuracy in Indic Handwritten Text
+  Recognition (CVIP 2024, Springer LNCS -- now has the page range/DOI the
+  resume was missing), and Text Summarization of Medical Documents (ICAAIC
+  2023). The resume's IDASCN 2022 paper is not on Scholar, so left out.

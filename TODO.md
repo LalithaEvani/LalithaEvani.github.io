@@ -14,12 +14,12 @@ jump to each spot. Roughly most-visible-first.
       actual headshot before this site goes in front of anyone (labs,
       committees) — not standard for a research portfolio. See the chat for why.
       → `assets/img/prof_pic.jpg`
-- [ ] **3. Real publications** — CVIP 2024 and ICAAIC 2023 added (ICAAIC has
-      full details; CVIP is missing a DOI/link until the proceedings are
-      published). Still missing: **IDASCN 2022** ("Chronic Disease Prediction
-      using Supervised Learning Techniques") — need the full author list and a
-      DOI/link, resume didn't have them. `selected_papers` is `false` in
-      `_pages/about.md` — flip to `true` if you want a homepage list.
+- [x] **3. Real publications** — done: all 3 papers from your Google Scholar
+      profile, full details incl. DOIs (SemiHastakshar/ICVGIP 2025, Indic
+      HTR/CVIP 2024, Text Summarization/ICAAIC 2023). The IDASCN 2022 paper
+      from the resume isn't on Scholar, so it's left out — say the word if you
+      want it added too. `selected_papers` is `false` in `_pages/about.md` —
+      flip to `true` if you want a homepage list.
       → `_bibliography/papers.bib`, `_pages/about.md`
 - [ ] **4. Real CV PDF** — deferred; you're editing your own version to publish.
       Replace the generated placeholder, keep the filename `cv.pdf`.
