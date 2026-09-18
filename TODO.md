@@ -49,9 +49,15 @@ jump to each spot. Roughly most-visible-first.
       `serve_schema_org: true`, add an `og_image` PNG in `assets/img/`.
       Optionally add `google_site_verification`.
       → `_config.yml`
-- [ ] **11. Favicon** — currently the 🔬 emoji; set a custom `icon:` /
-      `apple_touch_icon:` if desired.
+- [ ] **11. Favicon** — currently the 🔬 emoji. Explore other options (a
+      different emoji, or a real image via `apple_touch_icon:`) and pick one.
       → `_config.yml`
+- [ ] **12. Project thumbnails** — resize (the 3 card images are each paper's
+      own teaser figure at its original size/aspect ratio, not sized for a
+      card thumbnail — inconsistent and sometimes oddly cropped) and
+      reconsider whether the current images are the right ones to use as
+      thumbnails at all.
+      → `assets/img/{indic-htr-teaser,semihastakshar-teaser,textsumm-rouge-chart}.png`
 
 ## C. Optional housekeeping
 
