@@ -28,3 +28,6 @@ __pycache__/
 # (resume has a phone number, transcript has DOB + roll number)
 /Lalitha__Resume.pdf
 /MS_transcript.png
+
+# local-only: paper PDFs used as source material for project pages/bib entries
+/*.pdf
