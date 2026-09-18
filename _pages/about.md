@@ -22,16 +22,25 @@ latest_posts:
   enabled: false
 ---
 
-<!-- TODO: replace this placeholder biography with your own. -->
+Hi 👋 I'm an MS by Research student at the Centre for Visual Information
+Technology (CVIT), IIIT Hyderabad, working with Prof. C.V. Jawahar and
+Dr. Ajoy Mondal on Optical Character Recognition (OCR), with a focus on
+Indic handwritten text recognition (Indic HTR).
 
-I am a Master's researcher in **computer vision and machine learning** at
-[IIIT Hyderabad](https://www.iiit.ac.in/). My research focuses on <!-- TODO: e.g.
-representation learning for visual recognition, multimodal perception, efficient
-deep models --> _(add a one-line description of your research interests here)_.
+During my MS, I've been working on representation learning, and found myself
+especially drawn to how unlabelled data and math can be used to get a model
+learning without labels, in a semi- or self-supervised fashion. I was initially
+drawn to the math underlying machine learning, and over time I started liking
+the applied research side of computer vision and AI just as much. It's
+fascinating how applied math can be used in ML, and how ML can in turn be used
+in applied research to solve real-world problems.
 
-Before my MS, I <!-- TODO: brief background — undergrad, internships, prior work -->.
-I am currently applying for **research positions** (PhD / research engineer / research
-scientist roles) and am interested in <!-- TODO: topics or labs you'd like to work with -->.
+Going forward, I'm looking for industrial research roles in CV/ML, with a
+particular interest in AI for Social Good.
+
+Outside the lab, you'll find me with a cup of chai, a book, or a paintbrush.
+I'm always open to making new friends, understanding different perspectives,
+and slowly working out the philosophy of life.
 
 On this site you can find my [publications](/publications/), a selection of
 [projects](/projects/), and my [CV](/cv/). The quickest way to reach me is by

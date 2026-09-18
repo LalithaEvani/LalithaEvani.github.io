@@ -117,3 +117,10 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   illustrated avatar the user supplied, wired into `_pages/about.md` as a
   stand-in. Flagged in TODO.md as a placeholder to replace with a real photo
   before the site is shared with labs/committees.
+
+## 2026-09-18 — Real bio
+
+- Replaced the placeholder biography in `_pages/about.md` with the real one:
+  CVIT / IIIT Hyderabad, advisors (Prof. C.V. Jawahar, Dr. Ajoy Mondal), OCR /
+  Indic handwritten text recognition focus, research interests, industry /
+  AI4SG goal, personal note. Checked off in TODO.md.
