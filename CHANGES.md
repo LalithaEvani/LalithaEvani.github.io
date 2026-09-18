@@ -110,3 +110,10 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - Added `_includes/footer.liquid` (site-level override — Jekyll uses a
   same-path file in the site over the theme gem's) hard-coding the
   non-fixed "sticky-bottom" footer, bypassing the flag entirely.
+
+## 2026-09-18 — Temporary illustrated profile photo
+
+- Added `assets/img/prof_pic.png` (square-cropped, 800x800) from an AI-generated
+  illustrated avatar the user supplied, wired into `_pages/about.md` as a
+  stand-in. Flagged in TODO.md as a placeholder to replace with a real photo
+  before the site is shared with labs/committees.
