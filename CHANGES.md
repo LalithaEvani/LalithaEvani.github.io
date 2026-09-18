@@ -178,3 +178,12 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   Indic-HTR-CVIP-2024-page project page) and `code` (the paper's existing
   training-code repo) fields to the `evani2024indichtr` entry -- adds
   Website/Code buttons on /publications/.
+
+## 2026-09-18 -- Link first project card to Indic HTR
+
+- `_projects/1_project.md`: replaced the placeholder with real content --
+  problem/approach/results, `related_publications: true` +
+  `{% cite evani2024indichtr %}` (pulls the Website/Code buttons in
+  automatically), and a real thumbnail (`assets/img/indic-htr-teaser.png`,
+  the India-by-script map from the paper). Links to the project page, paper,
+  and code.
