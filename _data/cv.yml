@@ -89,29 +89,36 @@ cv:
         icon: fa-solid fa-certificate
 
     Publications:
+      - title: "SemiHastakshar: Generalizable Indic Handwritten OCR through Semi-Supervised Learning"
+        authors:
+          - Lalitha Evani
+          - Ajoy Mondal
+          - C. V. Jawahar
+        publisher: Proceedings of the 16th Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)
+        releaseDate: 2025
+        url: https://dl.acm.org/doi/abs/10.1145/3774521.3774605
+        summary: "ACM, pp. 1–9."
       - title: Enhancing Accuracy in Indic Handwritten Text Recognition
         authors:
           - Lalitha Evani
           - Ajoy Mondal
           - C. V. Jawahar
-        publisher: 9th International Conference on Computer Vision and Image Processing (CVIP)
+        publisher: International Conference on Computer Vision and Image Processing (CVIP)
         releaseDate: 2024
-        url: ""
-        summary: "Accepted; DOI/link to follow once the proceedings are published."
+        url: https://link.springer.com/chapter/10.1007/978-3-031-93688-3_17
+        summary: "Springer Nature Switzerland, LNCS vol. 2473, pp. 234–248."
       - title: Text Summarization of Medical Documents using Abstractive Techniques
         authors:
-          - E. Lalitha
-          - K. Ramani
-          - D. Shahida
-          - E. V. S. Deepak
-          - M. H. Bindu
-          - D. Shaikshavali
+          - Lalitha Evani
+          - Kasarapu Ramani
+          - Dudekula Shahida
+          - Esikela Venkata Sai Deepak
+          - M. Hima Bindu
+          - Diguri Shaikshavali
         publisher: 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC), Salem, India
         releaseDate: 2023
-        url: https://doi.org/10.1109/ICAAIC56838.2023.10140885
-        summary: "IEEE Xplore, pp. 939–943."
-      # TODO: "Chronic Disease Prediction using Supervised Learning Techniques"
-      # (IDASCN 2022) — missing author list and a DOI/link, see _bibliography/papers.bib.
+        url: https://ieeexplore.ieee.org/abstract/document/10140885/
+        summary: "IEEE, pp. 939–943."
 
     Languages:
       - name: English
