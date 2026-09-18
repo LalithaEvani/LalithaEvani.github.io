@@ -171,3 +171,10 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   Recognition (CVIP 2024, Springer LNCS -- now has the page range/DOI the
   resume was missing), and Text Summarization of Medical Documents (ICAAIC
   2023). The resume's IDASCN 2022 paper is not on Scholar, so left out.
+
+## 2026-09-18 -- Link CVIP 2024 paper to its new project page
+
+- `_bibliography/papers.bib`: added `website` (the new
+  Indic-HTR-CVIP-2024-page project page) and `code` (the paper's existing
+  training-code repo) fields to the `evani2024indichtr` entry -- adds
+  Website/Code buttons on /publications/.
