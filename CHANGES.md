@@ -101,3 +101,12 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - `footer_fixed: false` in `_config.yml` — the copyright bar was pinned to the
   bottom of the viewport while scrolling; now it sits at the end of the page
   like a normal footer.
+
+## 2026-09-18 — Footer still pinned: override the include directly
+
+- `footer_fixed: false` alone did not change the rendered footer class (still
+  `fixed-bottom` on a fresh build from that exact commit) — root cause in the
+  al_folio_core 1.0.15 theme gem was not pinned down.
+- Added `_includes/footer.liquid` (site-level override — Jekyll uses a
+  same-path file in the site over the theme gem's) hard-coding the
+  non-fixed "sticky-bottom" footer, bypassing the flag entirely.

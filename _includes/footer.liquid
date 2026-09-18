@@ -1,0 +1,35 @@
+{% comment %}
+  Site override of al_folio_core's _includes/footer.liquid.
+  Upstream reads `site.footer_fixed` to choose between a footer pinned to the
+  viewport ("fixed-bottom") and a normal one at the end of the page content
+  ("sticky-bottom"). Setting `footer_fixed: false` in _config.yml did not
+  change the rendered output (still came out "fixed-bottom" even on a fresh
+  build from that commit) — the cause wasn't pinned down, so this override
+  hard-codes the non-fixed footer instead of depending on that flag.
+{% endcomment %}
+{% capture footer_contents %}
+  &copy; Copyright {{ site.time | date: '%Y' }}
+  {{ site.first_name }}
+  {{ site.middle_name }}
+  {{ site.last_name }}. {{ site.footer_text }}
+  {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% endif %}
+  {% if site.last_updated %}
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  {% endif %}
+{% endcapture %}
+
+<footer class="sticky-bottom mt-5" role="contentinfo">
+  {% if site.newsletter.enabled %}
+    {% if site.plugins contains 'al_newsletter' %}
+      {% include plugins/al_newsletter_form_center.liquid %}
+    {% else %}
+      {% include newsletter.liquid %}
+    {% endif %}
+  {% endif %}
+
+  <div class="container">
+    {{ footer_contents }}
+  </div>
+</footer>
