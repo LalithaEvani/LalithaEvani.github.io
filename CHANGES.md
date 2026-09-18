@@ -241,3 +241,9 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   a thumbnail on `/projects/` now opens the external project page directly.
   The internal detail pages (`/projects/1_project/` etc.) still exist and
   work if visited directly, just no longer linked from the listing.
+
+## 2026-09-18 -- Add 2 TODO items
+
+- TODO.md: added item 12 (resize + reconsider the 3 project card
+  thumbnails) and reworded item 11 (favicon) to note exploring other
+  options, not just picking a fixed replacement.
