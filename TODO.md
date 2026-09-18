@@ -29,11 +29,10 @@ jump to each spot. Roughly most-visible-first.
       number anywhere (kept out deliberately). Publications section still a
       placeholder — see item 3.
       → `_data/cv.yml`
-- [ ] **6. Real projects** — 1 of 3 done: `1_project.md` now links out to the
-      Indic HTR project page (real content, real thumbnail, cites
-      `evani2024indichtr`). `2_project.md` and `3_project.md` still
-      placeholder — replace or delete extras.
-      → `_projects/2_project.md`, `_projects/3_project.md`
+- [x] **6. Real projects** — done, all 3: each links out to its own project
+      page (Indic HTR, SemiHastakshar, Medical Document Summarization), with
+      real content, real thumbnails, and `{% cite %}` pulling in the matching
+      bib entry's Website/Code buttons.
 - [ ] **7. Social links** — GitHub + LinkedIn done. Still need
       `scholar_userid` (uncomment and fill once you have a Scholar profile);
       confirm `email` is the address you want public.
