@@ -205,3 +205,17 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - `_projects/2_project.md` and `_projects/3_project.md`: same pattern as
   `1_project.md` -- real content, real thumbnail, `{% cite %}` pulling in
   the matching bib entry's buttons. All 3 project cards are now real.
+
+## 2026-09-18 -- Fix Text Summarization author order (for real this time)
+
+- The earlier "correction" to the paper's own byline was itself wrong: the
+  PDF's author block is a 3-column grid, and raw text extraction reads it
+  column-major (down col 1, then col 2, then col 3), not the true row-major
+  reading order. Verified by rendering the actual PDF page as an image.
+- True order: Evani Lalitha, Kasarapu Ramani, Dudekula Shahida, Esikela
+  Venkata Sai Deepak, M. Hima Bindu, Diguri Shaikshavali -- which is what
+  Google Scholar had all along. Reverted `_bibliography/papers.bib` and
+  `_data/cv.yml` to that order; also fixed the Text-Summarization-ICAAIC-2023-page
+  repo (index.html hero + BibTeX, README.md).
+- Checked SemiHastakshar and Indic HTR author blocks too: both are single-row
+  layouts with no column-major ambiguity, so those were already correct.
