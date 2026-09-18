@@ -6,6 +6,7 @@ img: assets/img/semihastakshar-teaser.png
 importance: 2
 category: research
 related_publications: true
+redirect: https://lalithaevani.github.io/SemiHastakshar-page/
 ---
 
 **Problem.** HTR models trained only on small, curated benchmarks struggle

@@ -6,6 +6,7 @@ img: assets/img/textsumm-rouge-chart.png
 importance: 3
 category: coursework
 related_publications: true
+redirect: https://lalithaevani.github.io/Text-Summarization-ICAAIC-2023-page/
 ---
 
 **Problem.** Many medical research documents don't come with a summary or

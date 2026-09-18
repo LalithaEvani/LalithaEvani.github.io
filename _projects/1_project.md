@@ -6,6 +6,7 @@ img: assets/img/indic-htr-teaser.png
 importance: 1
 category: research
 related_publications: true
+redirect: https://lalithaevani.github.io/Indic-HTR-CVIP-2024-page/
 ---
 
 **Problem.** Handwritten Text Recognition (HTR) is hard even for a single
