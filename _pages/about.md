@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS Researcher in Computer Vision & Machine Learning · <a href='https://www.iiit.ac.in/'>IIIT Hyderabad</a>
 
 profile:
   align: right
@@ -12,7 +11,7 @@ profile:
     <p>Gachibowli, Hyderabad 500032</p>
     <p>India</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:

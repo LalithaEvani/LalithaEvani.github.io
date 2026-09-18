@@ -124,3 +124,19 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   CVIT / IIIT Hyderabad, advisors (Prof. C.V. Jawahar, Dr. Ajoy Mondal), OCR /
   Indic handwritten text recognition focus, research interests, industry /
   AI4SG goal, personal note. Checked off in TODO.md.
+
+## 2026-09-18 -- Real CV data, trimmed About page
+
+- `_pages/about.md`: removed the subtitle line under the name; set
+  `selected_papers: false` (hides the homepage "selected publications" block
+  until real entries are added).
+- `_data/cv.yml`: filled in from the resume/transcript the user supplied
+  locally (never committed -- see below): real Education, Experience,
+  Projects, Skills, and a new Certificates section; summary and label
+  updated. No phone number anywhere by design. Publications section stays a
+  placeholder, deferred to a later pass.
+- `_data/socials.yml`: added the real `linkedin_username`.
+- `.gitignore`: added `Lalitha__Resume.pdf` and `MS_transcript.png` -- source
+  documents used only locally to fill in CV data. The resume has a phone
+  number and the transcript has a date of birth and roll number; neither
+  file is committed or published.

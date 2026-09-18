@@ -14,23 +14,27 @@ jump to each spot. Roughly most-visible-first.
       actual headshot before this site goes in front of anyone (labs,
       committees) — not standard for a research portfolio. See the chat for why.
       → `assets/img/prof_pic.jpg`
-- [ ] **3. Real publications** — swap the 2 fake BibTeX entries for real papers
-      (Google Scholar → "Cite" → BibTeX). Add `selected={true}` to the 1–3 to
-      feature on the homepage. No papers yet? Add an "under submission" entry, or
-      set `selected_papers: false` in `_pages/about.md` to hide the homepage list.
-      → `_bibliography/papers.bib`
-- [ ] **4. Real CV PDF** — replace the generated placeholder, keep the filename.
+- [ ] **3. Real publications** — deferred, coming back to this. Swap the 2 fake
+      BibTeX entries for the real papers (CVIP 2024, ICAAIC 2023, IDASCN 2022 —
+      details TBD) and re-enable `selected_papers: true` in `_pages/about.md`
+      if you want a homepage list once entries are real. Currently set to
+      `false` (no fake/placeholder papers shown).
+      → `_bibliography/papers.bib`, `_pages/about.md`
+- [ ] **4. Real CV PDF** — deferred; you're editing your own version to publish.
+      Replace the generated placeholder, keep the filename `cv.pdf`.
       → `assets/pdf/cv.pdf`
-- [ ] **5. Fill the CV page data** — name, label, summary, Education, Experience,
-      Publications, Skills, Languages; fix the guessed dates; delete unused
-      sections.
+- [x] **5. Fill the CV page data** — done, from your resume + transcript:
+      Education, Experience, Projects, Skills, Certificates, summary. No phone
+      number anywhere (kept out deliberately). Publications section still a
+      placeholder — see item 3.
       → `_data/cv.yml`
 - [ ] **6. Real projects** — replace the 3 placeholder cards (problem / approach /
       results / links) or delete extras. Swap the stock images
       `assets/img/{1,3,7}.jpg` for your own figures, or remove the `img:` line.
       → `_projects/1_project.md`–`3_project.md`
-- [ ] **7. Social links** — uncomment and fill `scholar_userid` and
-      `linkedin_username`; confirm `email` is the address you want public.
+- [ ] **7. Social links** — GitHub + LinkedIn done. Still need
+      `scholar_userid` (uncomment and fill once you have a Scholar profile);
+      confirm `email` is the address you want public.
       → `_data/socials.yml`
 
 ## B. Recommended polish for a research-application site

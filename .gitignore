@@ -23,3 +23,8 @@ __pycache__/
 # local-only: original photo(s), kept for future re-crops/edits
 /profile_photo.jpeg
 /profile_photo_temporary.png
+
+# local-only: source documents used to fill in CV data — never published
+# (resume has a phone number, transcript has DOB + roll number)
+/Lalitha__Resume.pdf
+/MS_transcript.png
