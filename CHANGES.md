@@ -150,3 +150,14 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 
 - Deleted `cv.summary` in `_data/cv.yml` -- removes the "Professional Summary"
   block from the /cv/ page.
+
+## 2026-09-18 -- Real publications (2 of 3)
+
+- `_bibliography/papers.bib` and `_data/cv.yml` Publications: added CVIP 2024
+  ("Enhancing Accuracy in Indic Handwritten Text Recognition", authors from
+  the resume, no DOI yet -- accepted but not yet published) and ICAAIC 2023
+  ("Text Summarization of Medical Documents using Abstractive Techniques",
+  full details incl. DOI, from the resume).
+- IDASCN 2022 ("Chronic Disease Prediction...") intentionally left out --
+  the resume did not list its authors or a DOI/link; not guessing at
+  co-authors. Flagged as a TODO in both files.

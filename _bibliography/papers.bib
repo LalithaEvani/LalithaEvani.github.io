@@ -3,34 +3,40 @@
 
 @comment{
   This file feeds the /publications/ page (rendered by jekyll-scholar).
-  Replace the template entries below with your real BibTeX.
-  Tip: copy entries straight from Google Scholar ("Cite" -> BibTeX) or the
-  publisher / arXiv page. Useful al-folio-specific fields:
+  Useful al-folio-specific fields:
     abbr={CVPR}          short venue tag shown on the left
-    selected={true}      also feature this paper on the About page
+    selected={true}      also feature this paper on the About page (currently
+                          off site-wide -- selected_papers: false in about.md)
     pdf={my-paper.pdf}   file in assets/pdf/  (or a full URL)
     arxiv={2401.12345}   adds an arXiv link
     code={https://github.com/...}
     bibtex_show={true}   shows a "BibTeX" button with the raw entry
+
+  TODO: a third paper is still missing from this file --
+  "Chronic Disease Prediction using Supervised Learning Techniques"
+  (International Conference on Data Analytics, Smart Computing and Networks,
+  IDASCN 2022) -- need the full author list and a DOI/link before it can be
+  added; not guessing at co-authors.
 }
 
-@article{evani2025example,
-  abbr      = {arXiv},
-  title     = {Your paper title goes here},
-  author    = {Evani, Lalitha and Coauthor, First},
-  journal   = {arXiv preprint arXiv:XXXX.XXXXX},
-  year      = {2025},
-  url       = {https://arxiv.org/abs/XXXX.XXXXX},
-  selected  = {true},
-  abstract  = {TODO: paste your abstract here. This text appears when the reader clicks "Abs".}
-}
-
-@inproceedings{evani2024example,
-  abbr      = {BMVC},
-  title     = {Another paper title},
-  author    = {Evani, Lalitha and Coauthor, Second},
-  booktitle = {Proceedings of the British Machine Vision Conference (BMVC)},
+@inproceedings{mondal2024indichtr,
+  abbr      = {CVIP},
+  title     = {Enhancing Accuracy in Indic Handwritten Text Recognition},
+  author    = {Evani, Lalitha and Mondal, Ajoy and Jawahar, C. V.},
+  booktitle = {9th International Conference on Computer Vision and Image Processing (CVIP)},
   year      = {2024},
-  url       = {https://example.com},
-  abstract  = {TODO: abstract.}
+  note      = {Accepted} % TODO: add doi/url/pages once the proceedings are published
+}
+
+@inproceedings{lalitha2023textsumm,
+  abbr      = {ICAAIC},
+  title     = {Text Summarization of Medical Documents using Abstractive Techniques},
+  author    = {Lalitha, E. and Ramani, K. and Shahida, D. and Deepak, E. V. S. and Bindu, M. H. and Shaikshavali, D.},
+  booktitle = {2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)},
+  year      = {2023},
+  address   = {Salem, India},
+  pages     = {939--943},
+  publisher = {IEEE},
+  doi       = {10.1109/ICAAIC56838.2023.10140885},
+  url       = {https://doi.org/10.1109/ICAAIC56838.2023.10140885}
 }

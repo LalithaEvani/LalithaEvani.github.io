@@ -14,11 +14,12 @@ jump to each spot. Roughly most-visible-first.
       actual headshot before this site goes in front of anyone (labs,
       committees) — not standard for a research portfolio. See the chat for why.
       → `assets/img/prof_pic.jpg`
-- [ ] **3. Real publications** — deferred, coming back to this. Swap the 2 fake
-      BibTeX entries for the real papers (CVIP 2024, ICAAIC 2023, IDASCN 2022 —
-      details TBD) and re-enable `selected_papers: true` in `_pages/about.md`
-      if you want a homepage list once entries are real. Currently set to
-      `false` (no fake/placeholder papers shown).
+- [ ] **3. Real publications** — CVIP 2024 and ICAAIC 2023 added (ICAAIC has
+      full details; CVIP is missing a DOI/link until the proceedings are
+      published). Still missing: **IDASCN 2022** ("Chronic Disease Prediction
+      using Supervised Learning Techniques") — need the full author list and a
+      DOI/link, resume didn't have them. `selected_papers` is `false` in
+      `_pages/about.md` — flip to `true` if you want a homepage list.
       → `_bibliography/papers.bib`, `_pages/about.md`
 - [ ] **4. Real CV PDF** — deferred; you're editing your own version to publish.
       Replace the generated placeholder, keep the filename `cv.pdf`.

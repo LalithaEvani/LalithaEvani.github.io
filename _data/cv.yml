@@ -89,14 +89,29 @@ cv:
         icon: fa-solid fa-certificate
 
     Publications:
-      - title: "TODO: Paper title"
+      - title: Enhancing Accuracy in Indic Handwritten Text Recognition
         authors:
           - Lalitha Evani
-          - "TODO: co-authors"
-        publisher: "TODO: venue (e.g. CVPR / BMVC / arXiv)"
-        releaseDate: 2025 # TODO
-        url: "" # TODO: link to paper
-        summary: "TODO: coming in the next pass — see _bibliography/papers.bib."
+          - Ajoy Mondal
+          - C. V. Jawahar
+        publisher: 9th International Conference on Computer Vision and Image Processing (CVIP)
+        releaseDate: 2024
+        url: ""
+        summary: "Accepted; DOI/link to follow once the proceedings are published."
+      - title: Text Summarization of Medical Documents using Abstractive Techniques
+        authors:
+          - E. Lalitha
+          - K. Ramani
+          - D. Shahida
+          - E. V. S. Deepak
+          - M. H. Bindu
+          - D. Shaikshavali
+        publisher: 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC), Salem, India
+        releaseDate: 2023
+        url: https://doi.org/10.1109/ICAAIC56838.2023.10140885
+        summary: "IEEE Xplore, pp. 939–943."
+      # TODO: "Chronic Disease Prediction using Supervised Learning Techniques"
+      # (IDASCN 2022) — missing author list and a DOI/link, see _bibliography/papers.bib.
 
     Languages:
       - name: English
