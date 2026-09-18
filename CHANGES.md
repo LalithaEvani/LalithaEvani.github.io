@@ -145,3 +145,8 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 
 - Removed the "On this site you can find my publications..." navigation-pointer
   paragraph from `_pages/about.md` (redundant with the navbar links).
+
+## 2026-09-18 -- Remove CV page Professional Summary
+
+- Deleted `cv.summary` in `_data/cv.yml` -- removes the "Professional Summary"
+  block from the /cv/ page.
