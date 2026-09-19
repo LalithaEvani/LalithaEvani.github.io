@@ -1,6 +1,7 @@
 # This file generates the structured sections on the /cv/ page (cv_format: rendercv).
-# The "Download PDF" button on that page points to assets/pdf/cv.pdf (see _pages/cv.md) —
-# that's still a placeholder; a real CV PDF will be added separately.
+# The "Download PDF" button on that page points to assets/pdf/cv.pdf, which is
+# generated from THIS file on every deploy by bin/build-cv-pdf.py (RenderCV) — so
+# editing this file updates the web CV and the PDF together.
 cv:
   name: Lalitha Evani
   label: MS by Research, CSE — CVIT, IIIT Hyderabad
@@ -23,8 +24,8 @@ cv:
         studyType: MS by Research
         start_date: 2024
         end_date: Present
-        score: "8.8 (CGPA, current)"
         highlights:
+          - "CGPA: 8.8 (current)"
           - "Advisors: Prof. C. V. Jawahar and Dr. Ajoy Mondal."
           - "Focus: Optical Character Recognition (OCR), Indic handwritten text recognition."
 
@@ -34,7 +35,8 @@ cv:
         studyType: B.Tech.
         start_date: 2019
         end_date: 2023
-        score: "9.06 (CGPA)"
+        highlights:
+          - "CGPA: 9.06"
 
     Experience:
       - company: Centre for Visual Information Technology (CVIT), IIIT Hyderabad
@@ -97,6 +99,7 @@ cv:
         publisher: Proceedings of the 16th Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)
         releaseDate: 2025
         url: https://dl.acm.org/doi/abs/10.1145/3774521.3774605
+        doi: 10.1145/3774521.3774605
         summary: "ACM, pp. 1–9."
       - title: Enhancing Accuracy in Indic Handwritten Text Recognition
         authors:
@@ -106,6 +109,7 @@ cv:
         publisher: International Conference on Computer Vision and Image Processing (CVIP)
         releaseDate: 2024
         url: https://link.springer.com/chapter/10.1007/978-3-031-93688-3_17
+        doi: 10.1007/978-3-031-93688-3_17
         summary: "Springer Nature Switzerland, LNCS vol. 2473, pp. 234–248."
       - title: Text Summarization of Medical Documents using Abstractive Techniques
         authors:
@@ -118,6 +122,7 @@ cv:
         publisher: 2nd International Conference on Applied Artificial Intelligence and Computing (ICAAIC), Salem, India
         releaseDate: 2023
         url: https://ieeexplore.ieee.org/abstract/document/10140885/
+        doi: 10.1109/ICAAIC56838.2023.10140885
         summary: "IEEE, pp. 939–943."
 
     Languages:

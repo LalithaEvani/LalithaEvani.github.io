@@ -91,6 +91,14 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Build CV PDF from _data/cv.yml 📄
+        # Regenerates assets/pdf/cv.pdf so the PDF always matches the /cv/ page.
+        # If this fails, the deploy still goes ahead and serves the last
+        # committed assets/pdf/cv.pdf instead of blocking the whole site.
+        continue-on-error: true
+        run: |
+          pip install pyyaml "rendercv[full]==2.8"
+          python bin/build-cv-pdf.py
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

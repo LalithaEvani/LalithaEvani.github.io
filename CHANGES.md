@@ -261,3 +261,23 @@ checkout. The authoritative history is `git log`; this file is a human summary.
   project), repos/reports/project pages for the DIP, INLP, and SAL course
   projects, independent-study repo + project page (and deciding what to do
   with it), and repo-only updates for the two B.Tech mini projects.
+
+## 2026-09-19 -- CV PDF generated from cv.yml (one source of truth)
+
+- `bin/build-cv-pdf.py` (new): maps `_data/cv.yml` into a RenderCV-valid
+  document (RenderCV rejects some fields the web CV layout needs -- `label`,
+  `image`, `studyType`, `releaseDate`, `end_date: Present` -- and wants
+  others the web layout ignores) and renders `assets/pdf/cv.pdf`. `cv.yml`
+  is never modified.
+- `.github/workflows/deploy.yml`: new step runs it before `jekyll build`
+  (RenderCV pinned to 2.8). `continue-on-error: true`, so a failed render
+  serves the committed `assets/pdf/cv.pdf` instead of blocking the deploy.
+  Editing `cv.yml` now updates the web CV and the PDF together.
+- `assets/pdf/cv.pdf`: replaced the placeholder with the generated CV
+  (committed as the fallback). No phone number, DOB, or roll number.
+- Fixed a bug of mine: the web CV layout does not render the `score` field,
+  so the CGPAs (8.8 / 9.06) never showed on `/cv/`. Moved them into
+  `highlights`, which both the page and the PDF render.
+- Added `doi` to the three publication entries (used by the PDF).
+- `.gitignore`: `/.cv_build/` (generated RenderCV input); `requirements.txt`:
+  `rendercv[full]==2.8`.

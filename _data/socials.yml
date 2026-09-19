@@ -2,7 +2,7 @@
 # Icons are shown at the bottom of the About page (social: true in _pages/about.md).
 # They render in the order defined here. See https://github.com/george-gca/jekyll-socials
 
-cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file (replace assets/pdf/cv.pdf with your real CV)
+cv_pdf: /assets/pdf/cv.pdf # generated from _data/cv.yml on every deploy (bin/build-cv-pdf.py)
 email: lalitha.e@research.iiit.ac.in # your email address
 github_username: LalithaEvani # your GitHub username
 
