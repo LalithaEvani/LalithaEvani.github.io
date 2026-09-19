@@ -21,9 +21,11 @@ jump to each spot. Roughly most-visible-first.
       want it added too. `selected_papers` is `false` in `_pages/about.md` —
       flip to `true` if you want a homepage list.
       → `_bibliography/papers.bib`, `_pages/about.md`
-- [ ] **4. Real CV PDF** — deferred; you're editing your own version to publish.
-      Replace the generated placeholder, keep the filename `cv.pdf`.
-      → `assets/pdf/cv.pdf`
+- [x] **4. Real CV PDF** — done: generated from `_data/cv.yml` by RenderCV on
+      every deploy (`bin/build-cv-pdf.py`), so the PDF and the `/cv/` page
+      always match. Edit `_data/cv.yml` to change both. A committed copy of
+      `assets/pdf/cv.pdf` is the fallback if a render ever fails.
+      → `_data/cv.yml`, `bin/build-cv-pdf.py`
 - [x] **5. Fill the CV page data** — done, from your resume + transcript:
       Education, Experience, Projects, Skills, Certificates, summary. No phone
       number anywhere (kept out deliberately). Publications section still a
