@@ -281,3 +281,8 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - Added `doi` to the three publication entries (used by the PDF).
 - `.gitignore`: `/.cv_build/` (generated RenderCV input); `requirements.txt`:
   `rendercv[full]==2.8`.
+
+## 2026-09-19 -- Languages
+
+- `_data/cv.yml`: Languages now Telugu (native), English (fluent), Hindi
+  (fluent). Shows on the /cv/ page and in the generated PDF.

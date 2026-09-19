@@ -126,7 +126,9 @@ cv:
         summary: "IEEE, pp. 939–943."
 
     Languages:
-      - name: English
-        summary: "Fluent"
       - name: Telugu
         summary: "Native speaker"
+      - name: English
+        summary: "Fluent"
+      - name: Hindi
+        summary: "Fluent"
