@@ -253,3 +253,11 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 - TODO.md: added item 13, a sign language avatar on the homepage
   (accessibility) -- flagged as needing its own approach discussion before
   implementation, unlike the smaller items around it.
+
+## 2026-09-19 -- Add TODO items 14-19 (datasets, GitHub cleanup, course/independent-study work)
+
+- TODO.md: new section E with items 14-19: upload the ICVGIP datasets, dataset
+  links for the CVIP paper, bring GitHub up to date (CVIP, ICVGIP, B.Tech
+  project), repos/reports/project pages for the DIP, INLP, and SAL course
+  projects, independent-study repo + project page (and deciding what to do
+  with it), and repo-only updates for the two B.Tech mini projects.
