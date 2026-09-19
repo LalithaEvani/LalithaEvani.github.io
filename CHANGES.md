@@ -286,3 +286,9 @@ checkout. The authoritative history is `git log`; this file is a human summary.
 
 - `_data/cv.yml`: Languages now Telugu (native), English (fluent), Hindi
   (fluent). Shows on the /cv/ page and in the generated PDF.
+
+## 2026-09-19 -- Add TODO items 20-22
+
+- TODO.md: 20 (look at more CV page templates), 21 (see if the CV PDF can match
+  the Overleaf design while staying generated from cv.yml), 22 (look at better
+  project page templates -- thumbnails and overall design; extends item 12).

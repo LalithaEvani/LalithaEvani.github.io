@@ -67,6 +67,24 @@ jump to each spot. Roughly most-visible-first.
       site's context, and where on the page it sits) before implementing.
       → `_pages/about.md`
 
+- [ ] **20. CV page: look at more templates** — the `/cv/` page currently uses
+      al-folio's default layout. Browse alternatives (other al-folio-style CV
+      layouts, academic-site CV pages) and pick a nicer design.
+      → `_pages/cv.md`, `_data/cv.yml`
+- [ ] **21. CV PDF: can it match the Overleaf design?** — the auto-generated PDF
+      (RenderCV, `bin/build-cv-pdf.py`) is plain next to the sidebar design made
+      in Overleaf (`Lalitha_CV2 (3).pdf`). Investigate matching it while keeping
+      it generated from `_data/cv.yml`: needs the Overleaf `.tex` source; options
+      are a LaTeX template filled from `cv.yml` (LaTeX in CI) or another
+      RenderCV theme. Public version must leave out phone, home address,
+      Instagram, and the blank 2nd page.
+      → `bin/build-cv-pdf.py`, `.github/workflows/deploy.yml`
+- [ ] **22. Projects page: look at better templates** — the card thumbnails and
+      the overall design don't look good. Browse project-page layouts for
+      good card/thumbnail designs (extends item 12, which only covers resizing
+      the current images).
+      → `_pages/projects.md`, `_projects/`
+
 ## E. Research artifacts & repos (datasets, GitHub, course/independent-study work)
 
 - [ ] **14. Upload the ICVGIP datasets** (SemiHastakshar paper — e.g. the
