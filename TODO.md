@@ -65,6 +65,34 @@ jump to each spot. Roughly most-visible-first.
       site's context, and where on the page it sits) before implementing.
       → `_pages/about.md`
 
+## E. Research artifacts & repos (datasets, GitHub, course/independent-study work)
+
+- [ ] **14. Upload the ICVGIP datasets** (SemiHastakshar paper — e.g. the
+      Indic-HW-Wild unlabeled corpus and the datasets it's evaluated on),
+      then link them from the paper's project page and repo README.
+      → `SemiHastakshar` repo, `SemiHastakshar-page`
+- [ ] **15. Dataset links for the CVIP paper** (Indic HTR — the
+      IIIT-INDIC-HW-WORDS dataset it's trained/evaluated on): find or host
+      the download link, then add it to the project page and repo README.
+      → `Indic-HTR-CVIP-2024-page`, `Indic-HTR-CVIP-2024` repo
+- [ ] **16. Bring GitHub up to date** for the CVIP paper, the ICVGIP paper,
+      and the B.Tech project — READMEs, structure, links to the papers and
+      project pages, anything stale or missing.
+      → `Indic-HTR-CVIP-2024`, `SemiHastakshar`, B.Tech project repo
+- [ ] **17. Course projects: DIP, INLP, SAL** — for each, get the repo in
+      shape and write up a report, then build a project page for it (same
+      paper-template pipeline as the paper pages, minus a paper), and add
+      each to the site's `/projects/` cards.
+      → 3 course-project repos (e.g. `SAL_Project`), 3 new project pages,
+        `_projects/`
+- [ ] **18. Independent study** — work on its repo, decide what to do with
+      it (write-up? extend into something publishable? just tidy and archive?),
+      and give it a project page.
+      → independent-study repo, new project page, `_projects/`
+- [ ] **19. Two B.Tech mini projects** — update the repos only (READMEs,
+      cleanup); no project pages needed for these.
+      → 2 B.Tech mini-project repos
+
 ## C. Optional housekeeping
 
 - [ ] Delete `docs/` (al-folio's own manual) and `assets/json/resume.json`
